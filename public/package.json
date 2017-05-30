@@ -11,7 +11,11 @@
   "dependencies": {
     "@uirouter/angularjs": "^1.0.3",
     "angular": "^1.6.4",
+    "angular-animate": "^1.6.4",
     "angular-resource": "^1.6.4",
-    "materialize-css": "^0.98.2"
+    "angular-ui-router": "^1.0.3",
+    "express": "^4.15.3",
+    "materialize-css": "^0.98.2",
+    "ui-router": "^1.0.0-alpha.3"
   }
 }

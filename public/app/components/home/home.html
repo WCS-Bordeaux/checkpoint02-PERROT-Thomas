@@ -7,12 +7,9 @@
     <div class="row">
         <div class="s12">
             <!-- besoin de boucler ! -->
-            <div>
-                <div><i class="material-icons">person</i>Kristen Dillon</div>
-                <div><i class="material-icons">work</i>INTERFIND</div>
-                <div><i class="material-icons">email</i>kristen.dillon@interfind.name</div>
-                <div><i class="material-icons">phone</i>+1 (906) 483-3623</div>
-                <div>
+            <div class="row">
+          <user ng-repeat="user in ::$ctrl.users track by $index" user="::user"></user>
+      </div>
                     <h5>Notes</h5>
                     <div>
                         <div>
